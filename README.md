@@ -106,8 +106,6 @@ The mobile app enables residential users to actively participate in demand-side 
 
 ---
 
-## 1.8 Pre-Demo Phase (WP5 Related)
-
 ### Overview – Features
 The mobile app provides a comprehensive overview of household electricity consumption across multiple screens:  
 
