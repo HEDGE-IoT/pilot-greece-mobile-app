@@ -1,6 +1,6 @@
 # Mobile App for Residential Users
 
-## 1.1 General Information and Purpose
+## General Information and Purpose
 - **Service Name/Title:** Mobile App for Residential Users  
 - **Description and purpose:**  
 The mobile app enables residential users to actively participate in demand-side flexibility programs. It provides real-time visualizations of household electricity consumption, PV production (if available), and tailored flexibility opportunities. The app empowers users to understand and optimize their energy behaviour while receiving incentives for participating in grid services. It also delivers push notifications about events and offers, enhancing user engagement and system responsiveness.  
@@ -8,7 +8,7 @@ The mobile app enables residential users to actively participate in demand-side 
 
 ---
 
-## 1.2 Functional Requirements
+## Functional Requirements
 - Show historical consumption data and patterns  
 - Display real-time electricity consumption  
 - Provide electricity billing breakdown and comparison of alternative offers  
@@ -19,7 +19,7 @@ The mobile app enables residential users to actively participate in demand-side 
 
 ---
 
-## 1.3 Non-Functional Requirements
+## Non-Functional Requirements
 
 ### Performance
 - App should update energy data within 5 seconds of backend push (for real-time events).  
@@ -38,18 +38,18 @@ The mobile app enables residential users to actively participate in demand-side 
 
 ---
 
-## 1.4 Service Interfaces
+## Service Interfaces
 
-### 1.4.1 API Endpoints
+### API Endpoints
 - The app consumes backend APIs, with data primarily fed from **SUC-04 Data Capture** service.  
 - Request/response schemas and error handling follow backend service definitions.  
 
-### 1.4.2 UI Mockups
+### UI Mockups
 - Dashboard mockups are included in **Section 1.8**.  
 
 ---
 
-## 1.5 Data Model
+## Data Model
 
 ### Entities and Relationships
 - **Users ↔ Houses:** Many-to-many. Users may access multiple houses; houses may have multiple users.  
@@ -65,7 +65,7 @@ The mobile app enables residential users to actively participate in demand-side 
 
 ---
 
-## 1.6 Integration and Dependencies
+## Integration and Dependencies
 
 ### External Dependencies
 - **Flexibility Optimization Service:** For incentive/event logic.  
@@ -90,7 +90,7 @@ The mobile app enables residential users to actively participate in demand-side 
 
 ---
 
-## 1.7 Security and Privacy
+## Security and Privacy
 
 ### Data Sensitivity
 - Consumption, production, and incentive data is privacy-sensitive.  
